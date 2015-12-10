@@ -15,3 +15,6 @@ Node
 Angular Materials
 Angular Route
 Bootstrap
+
+The contact for at the bottom sends data and message to a MongoDB Database as well as sends off an email with the 
+messgage to my personal email.
