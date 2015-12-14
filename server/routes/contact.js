@@ -9,13 +9,11 @@ console.log("server mailer: ", mailer);
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-
+//mongoose.connect call in server/app.js with mongod process.env
 mongoose.model('Email', new Schema({"contactName": String, "contactEmail": String, "contactMsg": String},
     {collection: 'email'}));
 var Email = mongoose.model('Email');
 
-//added mongodb addess from heroku setup of database
-//heroku_75nxvvk8:9p6jpuopll827471krsauujemv@ds057944.mongolab.com:57944/heroku_75nxvvk8);
 
 router.post('/', function(req, res) {
     console.log("contact route!");

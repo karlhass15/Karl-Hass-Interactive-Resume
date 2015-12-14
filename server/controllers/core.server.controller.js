@@ -2,7 +2,14 @@
 
 // var from direct transport from nodemailer website best for using locally?? rest below
 var nodemailer = require('nodemailer');
-var transporter = nodemailer.createTransport();
+var sgTransport = require('nodemailer-sendgrid-transport');
+var options = {
+    auth: {
+        // sendgrid_password
+        api_key: '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'
+    }
+};
+var mailer = nodemailer.createTransport(sgTransport(options));
 
 //render main app page
 exports.renderIndex = function(req,res) {
@@ -28,13 +35,30 @@ exports.sendMail = function(req, res) {
     console.log("sending email!!");
     var data = req.body;
 
-    //might need to upgrade to SMTP transport
-    transporter.sendMail({
-        from: data.contactEmail,
-        to: 'karl@reclaimedartcraftsman.com',
-        subject: 'Message from ' + data.contactName,
-        text: data.contactMsg
-    });
+    //for local email testing
+//    transporter.sendMail({
+//        from: data.contactEmail,
+//        to: 'karl@reclaimedartcraftsman.com',
+//        subject: 'Message from ' + data.contactName,
+//        text: data.contactMsg
+//    });
+//
+//    res.json(data);
+//};
 
-    res.json(data);
+//SENDGRID CODE FOR SMPT EMAIL SERVER
+    var email = {
+        to: ['karl@reclaimedartcraftsman.com'],
+        from: data.email,
+        subject: 'Message from ' + data.name,
+        text: data.message
+    };
+
+    mailer.sendMail(email, function (err, res) {
+        if (err) {
+            console.log("send error", err)
+        }
+        //console.log(res);
+    });
+    console.log("sending email!!");
 };

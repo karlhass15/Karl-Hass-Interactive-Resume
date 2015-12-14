@@ -7,11 +7,16 @@ angular.module('myApp').controller('ContactFormController', ['$scope', '$http', 
 
         this.sendMail = function () {
 
+
             var data = ({
                 contactName : this.contactName,
                 contactEmail : this.contactEmail,
                 contactMsg : this.contactMsg
             });
+
+            $(this).find("input[type=text]").val("");
+            $(this).find("textarea").val("");
+
 
             $scope.toastPosition = {
                 bottom: true,
