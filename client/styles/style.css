@@ -194,7 +194,7 @@ body {
     background-image: url('http://i.imgur.com/6eDqLbx.gif?3');
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #d3d3d3;
-    height: 4000px;
+    height: 2000px;
 
 }
 #info {
@@ -276,6 +276,19 @@ h1:hover {
     box-shadow: 5px 5px 15px #888888;
 
 }
+.cvButton {
+    border-radius: 3px;
+    background-color: #BECCCC;
+    box-shadow: 3px 3px 7px #888888;
+    margin-left: 15px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:  #125688
+
+}
+.cvButton:hover {
+    box-shadow: 5px 5px 15px #888888;
+
+}
 
 #experienceContainer {
     z-index: 700;
@@ -307,7 +320,7 @@ p {
     font-weight: bold;
 }
 li {
-    width: 1800px;
+    width: 1200px;
 }
 
 /*SOCIAL MEDIA SHARE*/

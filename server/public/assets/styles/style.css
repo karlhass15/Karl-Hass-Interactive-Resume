@@ -11,6 +11,21 @@ header:hover {
     opacity: 1;
 }
 
+.prime {
+    opacity: .2;
+    -webkit-transition: opacity 1.25s ease-in;
+    -moz-transition: opacity 1.25s ease-in;
+    -o-transition: opacity 1.25s ease-in;
+    -ms-transition: opacity 1.25s ease-in;
+    transition: opacity 1.25s ease-in;
+    width: 1000px;
+
+}
+.prime:hover {
+    opacity: 1;
+    font-size: 16px;
+}
+
 .zimmerman {
     opacity: .2;
     -webkit-transition: opacity 1.25s ease-in;
@@ -176,10 +191,10 @@ header {
 /*}*/
 
 body {
-    background-image: url('http://i.imgur.com/6eDqLbx.gif?2');
+    background-image: url('http://i.imgur.com/6eDqLbx.gif?3');
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #d3d3d3;
-    height: 8000px;
+    height: 2000px;
 
 }
 #info {
@@ -212,7 +227,7 @@ body {
 .line2{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 18px;
-    margin-left: 340px;
+    margin-left: 360px;
 }
 h1 {
     font-family: "Times New Roman", Times, serif;
@@ -261,6 +276,19 @@ h1:hover {
     box-shadow: 5px 5px 15px #888888;
 
 }
+.cvButton {
+    border-radius: 3px;
+    background-color: #BECCCC;
+    box-shadow: 3px 3px 7px #888888;
+    margin-left: 15px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:  #125688
+
+}
+.cvButton:hover {
+    box-shadow: 5px 5px 15px #888888;
+
+}
 
 #experienceContainer {
     z-index: 700;
@@ -292,7 +320,7 @@ p {
     font-weight: bold;
 }
 li {
-    width: 1800px;
+    width: 1200px;
 }
 
 /*SOCIAL MEDIA SHARE*/
