@@ -1,12 +1,11 @@
 'use strict';
 
-// var from direct transport from nodemailer website best for using locally?? rest below
 var nodemailer = require('nodemailer');
 var sgTransport = require('nodemailer-sendgrid-transport');
 var options = {
     auth: {
         // sendgrid_password
-        api_key: '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'
+        api_key: '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'
     }
 };
 var mailer = nodemailer.createTransport(sgTransport(options));

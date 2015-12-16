@@ -7,7 +7,6 @@ var mongoose =  require('mongoose');
 var contact = require('./routes/contact');
 var index = require('./routes/index');
 
-mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost:27017/karl_material_stable-master');
 app.set("port", (process.env.PORT || 5000));
 
 app.use(bodyParser.json());
