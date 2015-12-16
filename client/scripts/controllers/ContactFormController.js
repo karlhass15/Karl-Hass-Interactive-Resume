@@ -42,7 +42,7 @@ angular.module('myApp').controller('ContactFormController', ['$scope', '$http', 
                             .position($scope.getToastPosition())
                             .content('Hi ' + data.contactName + ' Thank you for your message! ' +
                             ' I look forward to speaking with you more - Karl')
-                            .hideDelay(5000)
+                            .hideDelay(10000)
                     );
                 }).
                 error(function(data, status, headers, config) {
