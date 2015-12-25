@@ -14,9 +14,6 @@ angular.module('myApp').controller('ContactFormController', ['$scope', '$http', 
                 contactMsg : this.contactMsg
             });
 
-            $(this).find("input[type=text]").val("");
-            $(this).find("textarea").val("");
-
 
             $scope.toastPosition = {
                 bottom: true,
