@@ -9,10 +9,9 @@ var Schema = mongoose.Schema;
 
 
 
-mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost:27017/resume');
 mongoose.model('Email', new Schema({"contactName": String, "contactEmail": String, "contactMsg": String},
     {collection: 'email'}));
-var Person = mongoose.model('Email');
+var Email = mongoose.model('Email');
 
 
 router.use(bodyParser.json());
@@ -23,7 +22,7 @@ router.post('/', function(req, res) {
     console.log("contact route!");
 
 
-    var addedContact = new Person({
+    var addedContact = new Email({
         "contactName" : req.body.contactName,
         "contactEmail": req.body.contactEmail,
         "contactMsg" : req.body.contactMsg

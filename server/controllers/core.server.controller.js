@@ -8,6 +8,8 @@ var options = {
         api_key: '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'
     }
 };
+console.log("data is trying here");
+
 var mailer = nodemailer.createTransport(sgTransport(options));
 
 //render main app page
@@ -34,30 +36,34 @@ exports.sendMail = function(req, res) {
     console.log("sending email!!");
     var data = req.body;
 
-    //for local email testing
-//    transporter.sendMail({
-//        from: data.contactEmail,
-//        to: 'karl@reclaimedartcraftsman.com',
-//        subject: 'Message from ' + data.contactName,
-//        text: data.contactMsg
-//    });
-//
-//    res.json(data);
-//};
+
 
 //SENDGRID CODE FOR SMPT EMAIL SERVER
-    var email = {
-        to: ['karl@reclaimedartcraftsman.com'],
-        from: data.email,
-        subject: 'Message from ' + data.name,
-        text: data.message
-    };
+//    var email = {
+//        to: ['karl@reclaimedartcraftsman.com'],
+//        from: data.email,
+//        subject: 'Message from ' + data.name,
+//        text: data.message
+//    };
+//    console.log(email);
+//
+//    mailer.sendMail(email, function (err, res) {
+//        if (err) {
+//            console.log("send error", err)
+//        }
+//        console.log(res);
+//    });
+//    console.log("sending email!!");
+//};
 
-    mailer.sendMail(email, function (err, res) {
-        if (err) {
-            console.log("send error", err)
-        }
-        //console.log(res);
+
+//for local email testing
+    mailer.sendMail({
+        from: data.contactEmail,
+        to: 'karl@reclaimedartcraftsman.com',
+        subject: 'Message from ' + data.contactName,
+        text: data.contactMsg
     });
-    console.log("sending email!!");
+
+    res.json(data);
 };

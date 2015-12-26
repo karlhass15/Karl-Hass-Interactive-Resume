@@ -3,9 +3,12 @@ var app = express();
 var path = require('path');
 var bodyParser = require('body-parser');
 var mongoose =  require('mongoose');
-
 var contact = require('./routes/contact');
 var index = require('./routes/index');
+
+
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost:27017/resume');
+
 
 app.set("port", (process.env.PORT || 5000));
 

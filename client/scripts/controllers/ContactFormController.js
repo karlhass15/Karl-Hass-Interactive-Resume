@@ -7,12 +7,12 @@ angular.module('myApp').controller('ContactFormController', ['$scope', '$http', 
 
         this.sendMail = function () {
 
-
             var data = ({
                 contactName : this.contactName,
                 contactEmail : this.contactEmail,
                 contactMsg : this.contactMsg
             });
+
 
 
             $scope.toastPosition = {
@@ -39,7 +39,7 @@ angular.module('myApp').controller('ContactFormController', ['$scope', '$http', 
                             .position($scope.getToastPosition())
                             .content('Hi ' + data.contactName + ' Thank you for your message! ' +
                             ' I look forward to speaking with you more - Karl')
-                            .hideDelay(10000)
+                            .hideDelay(5000)
                     );
                 }).
                 error(function(data, status, headers, config) {
@@ -48,3 +48,5 @@ angular.module('myApp').controller('ContactFormController', ['$scope', '$http', 
         };
     }
 ]);
+
+
