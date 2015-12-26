@@ -37,9 +37,9 @@ angular.module('myApp').controller('ContactFormController', ['$scope', '$http', 
                             .parent( $document[0].querySelector('#toastBounds'))
 
                             .position($scope.getToastPosition())
-                            .content('Hi ' + data.contactName + ' Thank you for your message! ' +
+                            .content('Hi ' + data.contactName + ' Thanks for your message! ' +
                             ' I look forward to speaking with you more - Karl')
-                            .hideDelay(5000)
+                            .hideDelay(8000)
                     );
                 }).
                 error(function(data, status, headers, config) {

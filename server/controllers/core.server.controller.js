@@ -38,6 +38,20 @@ exports.sendMail = function(req, res) {
 
 
 
+//was for local testing, but changed transport to mailer and fired live to database and junkmail
+    mailer.sendMail({
+        from: data.contactEmail,
+        to: 'karl@reclaimedartcraftsman.com',
+        subject: 'Message from ' + data.contactName,
+        text: data.contactMsg
+
+    });
+
+    res.json(data);
+};
+
+
+//jquery set up for sendgrid nodemailer
 //SENDGRID CODE FOR SMPT EMAIL SERVER
 //    var email = {
 //        to: ['karl@reclaimedartcraftsman.com'],
@@ -55,15 +69,3 @@ exports.sendMail = function(req, res) {
 //    });
 //    console.log("sending email!!");
 //};
-
-
-//for local email testing
-    mailer.sendMail({
-        from: data.contactEmail,
-        to: 'karl@reclaimedartcraftsman.com',
-        subject: 'Message from ' + data.contactName,
-        text: data.contactMsg
-    });
-
-    res.json(data);
-};
