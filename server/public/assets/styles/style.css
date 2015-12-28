@@ -65,14 +65,14 @@ body {
 .line {
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
-    font-size: 19px;
-    margin-left: 185px;
+    font-size: 17px;
+    margin-left: 340px;
     z-index: 1;
 }
 .line2{
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    margin-left: 360px;
+    font-size: 17px;
+    margin-left: 565px;
     z-index: 1;
 }
 h1 {
@@ -91,7 +91,7 @@ h1:hover {
 .profilepic {
     background-image: url('http://i.imgur.com/WghfQMZ.jpg?2');
   float: right;
-    margin-right: 420px;
+    margin-right: 275px;
     margin-top: 10px;
     width: 250px;
     height:250px;
