@@ -7,11 +7,11 @@
 
 header {
     opacity: .4;
-    -webkit-transition: opacity 1.25s ease-out;
-    -moz-transition: opacity 1.25s ease-out;
-    -o-transition: opacity 1.25s ease-out;
-    -ms-transition: opacity 1.25s ease-out;
-    transition: opacity 1.25s ease-out;
+    -webkit-transition: opacity .65s ease-in;
+    -moz-transition: opacity .65s ease-in;
+    -o-transition: opacity .65s ease-in;
+    -ms-transition: opacity .65s ease-in;
+    transition: opacity .65s ease-in;
     /*-#px was extablished to get rid of white space at top of the page*/
     margin-top: -20px;
 }
@@ -30,16 +30,16 @@ header:hover {
 /*inside of address info li*/
 .emailButton {
     position: relative;
-    height: 30px;
-    width: 30px;
+    height: 32px;
+    width: 20px;
     z-index: 5;
     border-radius: 10px;
-    box-shadow: 1px 1px 3px #888888;
+    box-shadow: 2px 2px 5px #888888;
 
 }
 
 .emailButton:hover {
-    box-shadow: 2px 2px 4px #888888;
+    box-shadow: 4px 4px 5px #888888;
 }
 /*Background image, backup color and font.  Height was extablished to extend background image*/
 body {
@@ -163,10 +163,6 @@ li {
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 15px;
 }
-
-ul li {
-    padding-bottom: 1px;
-}
 /*Professional Experience and Education titles*/
 h2 {
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -190,12 +186,12 @@ p {
 
 footer {
     margin-left: 15px;
-    opacity: .2;
-    -webkit-transition: opacity 1.25s ease-in;
-    -moz-transition: opacity 1.25s ease-in;
-    -o-transition: opacity 1.25s ease-in;
-    -ms-transition: opacity 1.25s ease-in;
-    transition: opacity 1.25s ease-in;
+    opacity: .4;
+    -webkit-transition: opacity .65s ease-in;
+    -moz-transition: opacity .65s ease-in;
+    -o-transition: opacity .65s ease-in;
+    -ms-transition: opacity .65s ease-in;
+    transition: opacity .65s ease-in;
 }
 
 footer:hover {
