@@ -41,6 +41,14 @@ module.exports = function(grunt){
                 ],
                 "dest": "server/public/assets/"
             },
+            Ex_css: {
+                expand: true,
+                cwd: 'client',
+                src: [
+                    "styles/experience.css"
+                ],
+                "dest": "server/public/assets/"
+            },
             html: {
                 expand: true,
                 cwd: 'client',

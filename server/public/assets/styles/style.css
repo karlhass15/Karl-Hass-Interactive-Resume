@@ -1,12 +1,21 @@
+/*Page gutter surrounds entire page*/
+#mainContainer {
+    max-width: 1100px;
+    margin: auto;
+
+}
 
 header {
-    opacity: .2;
+    opacity: .4;
     -webkit-transition: opacity 1.25s ease-out;
     -moz-transition: opacity 1.25s ease-out;
     -o-transition: opacity 1.25s ease-out;
     -ms-transition: opacity 1.25s ease-out;
     transition: opacity 1.25s ease-out;
+    /*-#px was extablished to get rid of white space at top of the page*/
+    margin-top: -20px;
 }
+
 header:hover {
     opacity: 1;
 }
@@ -18,27 +27,21 @@ header:hover {
     z-index: 1;
     margin-left: 15px;
 }
-
+/*inside of address info li*/
 .emailButton {
     position: relative;
     height: 30px;
     width: 30px;
-
     z-index: 5;
     border-radius: 10px;
+    box-shadow: 1px 1px 3px #888888;
 
 }
 
 .emailButton:hover {
-    box-shadow: 5px 5px 15px #888888;
+    box-shadow: 2px 2px 4px #888888;
 }
-
-
-
-header {
-    margin-top: -20px;
-}
-
+/*Background image, backup color and font.  Height was extablished to extend background image*/
 body {
     background-image: url('http://i.imgur.com/6eDqLbx.gif?4');
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -46,146 +49,145 @@ body {
     height: 2200px;
 
 }
-
+/*Naviation buttons section*/
 .nav {
     display: inline-block;
     border-radius: 5px;
     margin-top: 30px;
     margin-left: 30px;
+    margin-bottom: 20px;
     font-family:  georgia, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     height: 42px;
     width: 600px;
     z-index: 1;
 }
+/*linkedin image*/
 .linkedin {
-    height: 37px;
-    width: auto;
+    height: 23px;
+    width: 90px;
     border-radius: 5px;
 }
+/*github image*/
+.gitHub {
+    width: 100px;
+    height: 35px
+}
+/*github and linkedin buttons*/
+.infoButton {
+    width: 120px;
+    height: 36px;
+    border-radius: 3px;
+    background-color: #BECCCC;
+    box-shadow: 1px 1px 5px #888888;
+    margin-left: 15px;
+}
+
+.infoButton:hover {
+    box-shadow: 2px 2px 4px #888888;
+}
+/*Resume Download button*/
+.cvButton {
+    width: 120px;
+    height: 36px;
+    border-radius: 3px;
+    background-color: #BECCCC;
+    box-shadow: 1px 1px 5px #888888;
+    margin-left: 15px;
+    font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:  #125688
+}
+
+.cvButton:hover {
+    box-shadow: 2px 2px 4px #888888;
+}
+
+/*line and line2 are for profile pic instructions in header*/
 .line {
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 17px;
-    margin-left: 340px;
+    margin-left: 370px;
     z-index: 1;
 }
+
 .line2{
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 17px;
-    margin-left: 565px;
+    margin-left: 585px;
     z-index: 1;
 }
+/*name at the top of the page*/
 h1 {
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 35px;
     text-transform: uppercase;
-    box-shadow: 3px 3px 7px #888888;
-    margin-left: 15px;
+    box-shadow: 1px 1px 3px #888888;
+    padding-left: 10px;
     margin-top: 20px;
     height: 45px;
 }
+
 h1:hover {
-    box-shadow: 5px 5px 15px #888888;
+    box-shadow: 2px 2px 4px #888888;
 }
 
 .profilepic {
     background-image: url('http://i.imgur.com/WghfQMZ.jpg?2');
-  float: right;
-    margin-right: 275px;
+    float: right;
+    margin-right: 75px;
     margin-top: 10px;
     width: 250px;
     height:250px;
-    box-shadow: 3px 3px 7px #888888;
+    box-shadow: 1px 1px 3px #888888;
     z-index: 500;
-    border-radius: 10px; border:3px solid #becccc
+    border-radius: 10px; border:2px solid #becccc
 }
+/*picture transition */
 .profilepic:hover {
     background-image: url('http://i.imgur.com/qJe328n.jpg?1');
     width: 250px;
-    height:250px;
-    box-shadow: 7px 7px 20px #888888;
-    -webkit-transition: opacity 1s ease-in;
-    -moz-transition: opacity 1s ease-in;
-    -o-transition: opacity 1s ease-in;
-    -ms-transition: opacity 1s ease-in;
-    transition: opacity 1s ease-in;
-
+    height: 250px;
+    box-shadow: 4px 4px 15px #888888;
+    -webkit-transition: opacity 1.25s ease-in;
+    -moz-transition: opacity 1.25s ease-in;
+    -o-transition: opacity 1.25s ease-in;
+    -ms-transition: opacity 1.25s ease-in;
+    transition: opacity 1.25s ease-in;
 }
-.infoButton {
-    border-radius: 3px;
-    background-color: #BECCCC;
-    box-shadow: 3px 3px 7px #888888;
-    margin-left: 15px;
-}
-.infoButton:hover {
-    box-shadow: 5px 5px 15px #888888;
-
-}
-.cvButton {
-    border-radius: 3px;
-    background-color: #BECCCC;
-    box-shadow: 3px 3px 7px #888888;
-    margin-left: 15px;
-    font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color:  #125688
-
-}
-.cvButton:hover {
-    box-shadow: 5px 5px 15px #888888;
-
-}
-
-#experienceContainer {
-    z-index: 700;
-    margin-left: 25px;
-    margin-top: 50px;
-}
-.school {
-    margin-left: 15px;
-}
-
+/*job duties*/
 ul {
     padding-top: 8px;
-    margin-top: 1px;
 }
+
+li {
+    font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
 ul li {
     padding-bottom: 1px;
 }
+/*Professional Experience and Education titles*/
 h2 {
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 18px;
     margin-bottom: 3px;
-    margin-left: 15px;
 }
+/*used for job/company titles*/
 h3 {
-    width:1800px; height:1px; background: #f6f7ff;
+    /*width:1800px; height:1px; background: #f6f7ff;*/
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 17px;
+    margin-bottom: 1px;
 }
+/*one line in footer about side business*/
 p {
     font-family: "Times New Roman", Times, serif;
     font-style: italic;
     font-size: 20px;
     font-weight: bold;
 }
-li {
-    width: 1200px;
-}
 
-/*SOCIAL MEDIA SHARE*/
-#share-buttons img {
-    width: 35px;
-    padding: 5px;
-    border-radius: 50%;
-    box-shadow:  2px 2px 5px #959599;
-    display: inline;
-    margin-left: 25px;
-    margin-bottom: 10px;
-}
-#share-buttons img:hover {
-    box-shadow:  4px 4px 9px #959599;
-
-}
 footer {
     margin-left: 15px;
     opacity: .2;
@@ -194,9 +196,24 @@ footer {
     -o-transition: opacity 1.25s ease-in;
     -ms-transition: opacity 1.25s ease-in;
     transition: opacity 1.25s ease-in;
-
 }
+
 footer:hover {
     opacity: 1;
     font-size: 16px;
+}
+
+/*SOCIAL MEDIA SHARE*/
+#share-buttons img {
+    width: 35px;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px #888888;
+    display: inline;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+#share-buttons img:hover {
+    box-shadow: 2px 2px 4px #888888;
 }
