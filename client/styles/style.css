@@ -13,7 +13,7 @@ header:hover {
 
 .info {
     position: relative;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 15px;
     z-index: 1;
     margin-left: 15px;
@@ -41,7 +41,7 @@ header {
 
 body {
     background-image: url('http://i.imgur.com/6eDqLbx.gif?4');
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #d3d3d3;
     height: 2200px;
 
@@ -52,7 +52,7 @@ body {
     border-radius: 5px;
     margin-top: 30px;
     margin-left: 30px;
-    font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family:  georgia, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     height: 42px;
     width: 600px;
     z-index: 1;
@@ -63,20 +63,20 @@ body {
     border-radius: 5px;
 }
 .line {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 19px;
     margin-left: 185px;
     z-index: 1;
 }
 .line2{
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 18px;
     margin-left: 360px;
     z-index: 1;
 }
 h1 {
-    font-family: "Times New Roman", Times, serif;
+    font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 35px;
     text-transform: uppercase;
     box-shadow: 3px 3px 7px #888888;
@@ -126,7 +126,7 @@ h1:hover {
     background-color: #BECCCC;
     box-shadow: 3px 3px 7px #888888;
     margin-left: 15px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     color:  #125688
 
 }
@@ -152,14 +152,14 @@ ul li {
     padding-bottom: 1px;
 }
 h2 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 18px;
     margin-bottom: 3px;
     margin-left: 15px;
 }
 h3 {
     width:1800px; height:1px; background: #f6f7ff;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 17px;
 }
 p {
