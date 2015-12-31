@@ -1,8 +1,7 @@
 /*Page gutter surrounds entire page*/
 #mainContainer {
-    max-width: 1100px;
+    max-width: 90%;
     margin: auto;
-
 }
 
 header {
@@ -19,20 +18,42 @@ header {
 header:hover {
     opacity: 1;
 }
-
-.info {
-    position: relative;
+/*name at the top of the page*/
+h1 {
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    z-index: 1;
-    margin-left: 15px;
+    font-size: 2.4585em;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 3px #888888;
+    border:1.5px solid #becccc;
+    padding-left: 10px;
+    margin-top: 20px;
+    height: 45px;
+    max-width: 100%;
 }
+
+h1:hover {
+    box-shadow: 2px 2px 4px #888888;
+}
+
+
+#infoContainer {
+    z-index: 500;
+    margin-left: 15px;
+    min-width: 150px;
+    margin-top: 15px;
+}
+h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.1em;
+}
+
 /*inside of address info li*/
 .emailButton {
-    position: relative;
     height: 32px;
     width: 20px;
-    z-index: 5;
+    z-index: 1;
     border-radius: 10px;
     box-shadow: 2px 2px 5px #888888;
 
@@ -46,7 +67,7 @@ body {
     background-image: url('http://i.imgur.com/6eDqLbx.gif?4');
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #d3d3d3;
-    height: 2200px;
+    height: 2300px;
 
 }
 /*Naviation buttons section*/
@@ -58,7 +79,7 @@ body {
     margin-bottom: 20px;
     font-family:  georgia, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     height: 42px;
-    width: 600px;
+    width: 60%;
     z-index: 1;
 }
 /*linkedin image*/
@@ -103,32 +124,23 @@ body {
 
 /*line and line2 are for profile pic instructions in header*/
 .line {
+    float: right;
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
-    font-size: 17px;
-    margin-left: 370px;
-    z-index: 1;
+    font-size: 1em;
 }
 
 .line2{
+    float: right;
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 17px;
-    margin-left: 585px;
-    z-index: 1;
+    font-size: 1em;
 }
-/*name at the top of the page*/
-h1 {
-    font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 35px;
-    text-transform: uppercase;
-    box-shadow: 1px 1px 3px #888888;
-    padding-left: 10px;
-    margin-top: 20px;
-    height: 45px;
-}
-
-h1:hover {
-    box-shadow: 2px 2px 4px #888888;
+/*combines to the two lines for movement*/
+#lineContainer {
+    float: right;
+    margin-right: 25px;
+    width: 300px;
+    z-indez: 500;
 }
 
 .profilepic {
@@ -140,7 +152,7 @@ h1:hover {
     height:250px;
     box-shadow: 1px 1px 3px #888888;
     z-index: 500;
-    border-radius: 10px; border:2px solid #becccc
+    border-radius: 10px; border:1.5px solid #becccc
 }
 /*picture transition */
 .profilepic:hover {
@@ -161,26 +173,26 @@ ul {
 
 li {
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 15px;
+    font-size: 1.2em;
 }
 /*Professional Experience and Education titles*/
 h2 {
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 1.25em;
     margin-bottom: 3px;
 }
 /*used for job/company titles*/
 h3 {
     /*width:1800px; height:1px; background: #f6f7ff;*/
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 17px;
+    font-size: 1.25em;
     margin-bottom: 1px;
 }
 /*one line in footer about side business*/
 p {
     font-family: "Times New Roman", Times, serif;
     font-style: italic;
-    font-size: 20px;
+    font-size: 1.6em;
     font-weight: bold;
 }
 
@@ -196,7 +208,7 @@ footer {
 
 footer:hover {
     opacity: 1;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 /*SOCIAL MEDIA SHARE*/
@@ -212,4 +224,57 @@ footer:hover {
 
 #share-buttons img:hover {
     box-shadow: 2px 2px 4px #888888;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+ /*||  Media Screen Section ||*/
+
+
+@media screen and (max-width: 750px) {
+
+    .line {
+        display: none;
+    }
+
+    .line2 {
+        display: none;
+    }
+
+    .profilepic {
+        display: none;
+    }
+
+    body {
+        background-image: url('http://i.imgur.com/6eDqLbx.gif?4');
+        font-family: georgia, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        background-color: #d3d3d3;
+        height: 3500px;
+
+    }
+}
+@media screen and (max-width: 490px) {
+
+    .line {
+        display: none;
+    }
+
+    .line2 {
+        display: none;
+    }
+
+    body {
+        background-image: url('http://i.imgur.com/6eDqLbx.gif?4');
+        font-family: georgia, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        background-color: #d3d3d3;
+        height: 7000px;
+
+    }
 }

@@ -15,10 +15,11 @@
     -ms-transition: opacity .65s ease-in;
     transition: opacity .65s ease-in;
 
+
 }
 .prime:hover {
     opacity: 1;
-    font-size: 16px;
+    /*font-size: 1.1em;*/
 }
 
 .zimmerman {
@@ -29,10 +30,11 @@
     -ms-transition: opacity .65s ease-in;
     transition: opacity .65s ease-in;
 
+
 }
 .zimmerman:hover {
     opacity: 1;
-    font-size: 16px;
+    /*font-size: 1.1em;*/
 }
 
 .livin {
@@ -46,7 +48,7 @@
 
 .livin:hover {
     opacity: 1;
-    font-size: 16px;
+    /*font-size: 1.1px;*/
 }
 
 .mosaic {
@@ -60,7 +62,7 @@
 
 .mosaic:hover {
     opacity: 1;
-    font-size: 16px;
+    /*font-size: 1.1em;*/
 }
 
 .gmr {
@@ -74,7 +76,7 @@
 
 .gmr:hover {
     opacity: 1;
-    font-size: 16px;
+    /*font-size: 1.1em;*/
 }
 
 .contractor {
@@ -88,7 +90,7 @@
 
 .contractor:hover {
     opacity: 1;
-    font-size: 16px;
+    /*font-size: 1.1em;*/
 }
 
 .miller {
@@ -102,7 +104,7 @@
 
 .miller:hover {
     opacity: 1;
-    font-size: 16px;
+    /*font-size: 1.1em;*/
 }
 
 .bi {
@@ -116,7 +118,7 @@
 
 .bi:hover {
     opacity: 1;
-    font-size: 16px;
+    /*font-size: 1.1em;*/
 }
 
 .cpc {
@@ -130,7 +132,7 @@
 
 .cpc:hover {
     opacity: 1;
-    font-size: 16px;
+    /*font-size: 1.1em;*/
 }
 
 .riplfx {
@@ -144,7 +146,7 @@
 
 .riplfx:hover {
     opacity: 1;
-    font-size: 16px;
+    /*font-size: 1.1em;*/
 }
 
 /*Education*/
@@ -159,6 +161,6 @@
 
 .school:hover {
     opacity: 1;
-    font-size: 16px;
+    /*font-size: 1.1em;*/
 }
 
