@@ -1,4 +1,5 @@
-Hello and welcome to my Interactive Resume
+Hello and welcome to my Interactive Resume - Responsive and Mobile, built entirely on
+the MEAN full stack.
 
 I've created this resume to not only outline my previous career experience, but
 to also highlight coding skills both front and backend that I have worked towards
@@ -15,6 +16,12 @@ Node
 Angular Materials
 Angular Route
 Bootstrap
+@media
+
 
 The contact for at the bottom sends data and message to a MongoDB Database as well as sends off an email with the 
-messgage to my personal email.
+messgage to my personal email to alert me of a contact.
+
+Feel free to send me a message or Feedback!
+
+
