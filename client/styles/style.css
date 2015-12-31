@@ -238,7 +238,8 @@ footer:hover {
  /*||  Media Screen Section ||*/
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 750px)
+{
 
     .line {
         display: none;
@@ -256,8 +257,11 @@ footer:hover {
         background-image: url('http://i.imgur.com/6eDqLbx.gif?4');
         font-family: georgia, 'Helvetica Neue', Helvetica, Arial, sans-serif;
         background-color: #d3d3d3;
-        height: 3500px;
-
+        height: 3000px;
+        width: 100%
+    }
+    #mainContainer {
+        opacity: 1;
     }
 }
 @media screen and (max-width: 490px) {
@@ -274,7 +278,13 @@ footer:hover {
         background-image: url('http://i.imgur.com/6eDqLbx.gif?4');
         font-family: georgia, 'Helvetica Neue', Helvetica, Arial, sans-serif;
         background-color: #d3d3d3;
-        height: 7000px;
-
+        height: 3500px;
+        width: 480px
+    }
+    h1 {
+        font-size: 1.9em;
+    }
+    #mainContainer {
+        opacity: 1;
     }
 }
