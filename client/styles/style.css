@@ -3,6 +3,13 @@
     max-width: 90%;
     margin: auto;
 }
+/*makes the background image go to the bottom of page*/
+#bgContainer {
+    background-image: url('http://i.imgur.com/6eDqLbx.gif?4');
+    font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #d3d3d3;
+    padding-bottom: 40px;
+}
 
 header {
     opacity: .4;
@@ -64,10 +71,8 @@ h5 {
 }
 /*Background image, backup color and font.  Height was extablished to extend background image*/
 body {
-    background-image: url('http://i.imgur.com/6eDqLbx.gif?4');
-    font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #d3d3d3;
-    height: 3000px;
+
+    /*height: 3000px;*/
 
 }
 /*Naviation buttons section*/
@@ -140,7 +145,7 @@ body {
     float: right;
     margin-right: 25px;
     width: 300px;
-    z-indez: 500;
+    z-index: 500;
 }
 
 .profilepic {
