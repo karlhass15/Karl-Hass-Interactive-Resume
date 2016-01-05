@@ -67,7 +67,7 @@ body {
     background-image: url('http://i.imgur.com/6eDqLbx.gif?4');
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #d3d3d3;
-    height: 2300px;
+    height: 3000px;
 
 }
 /*Naviation buttons section*/
@@ -258,7 +258,7 @@ footer:hover {
         background-image: url('http://i.imgur.com/6eDqLbx.gif?4');
         font-family: georgia, 'Helvetica Neue', Helvetica, Arial, sans-serif;
         background-color: #d3d3d3;
-        height: 3000px;
+        height: 3400px;
         width: 100%
     }
     #mainContainer {
@@ -285,7 +285,7 @@ footer:hover {
         background-image: url('http://i.imgur.com/6eDqLbx.gif?4');
         font-family: georgia, 'Helvetica Neue', Helvetica, Arial, sans-serif;
         background-color: #d3d3d3;
-        height: 3500px;
+        height: 3900px;
         width: 480px
     }
     h1 {
