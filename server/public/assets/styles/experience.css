@@ -9,11 +9,11 @@
 
 .prime {
     opacity: .4;
-    -webkit-transition: opacity .65s ease-in;
-    -moz-transition: opacity .65s ease-in;
-    -o-transition: opacity .65s ease-in;
-    -ms-transition: opacity .65s ease-in;
-    transition: opacity .65s ease-in;
+    -webkit-transition: opacity .50s ease-in;
+    -moz-transition: opacity .50s ease-in;
+    -o-transition: opacity .50s ease-in;
+    -ms-transition: opacity .50s ease-in;
+    transition: opacity .50s ease-in;
 
 
 }
@@ -24,11 +24,11 @@
 
 .zimmerman {
     opacity: .4;
-    -webkit-transition: opacity .65s ease-in;
-    -moz-transition: opacity .65s ease-in;
-    -o-transition: opacity .65s ease-in;
-    -ms-transition: opacity .65s ease-in;
-    transition: opacity .65s ease-in;
+    -webkit-transition: opacity .50s ease-in;
+    -moz-transition: opacity .50s ease-in;
+    -o-transition: opacity .50s ease-in;
+    -ms-transition: opacity .50s ease-in;
+    transition: opacity .50s ease-in;
 
 
 }
@@ -39,11 +39,11 @@
 
 .livin {
     opacity: .4;
-    -webkit-transition: opacity .65s ease-in;
-    -moz-transition: opacity .65s ease-in;
-    -o-transition: opacity .65s ease-in;
-    -ms-transition: opacity .65s ease-in;
-    transition: opacity .65s ease-in;
+    -webkit-transition: opacity .50s ease-in;
+    -moz-transition: opacity .50s ease-in;
+    -o-transition: opacity .50s ease-in;
+    -ms-transition: opacity .50s ease-in;
+    transition: opacity .50s ease-in;
 }
 
 .livin:hover {
@@ -53,11 +53,11 @@
 
 .mosaic {
     opacity: .4;
-    -webkit-transition: opacity .65s ease-in;
-    -moz-transition: opacity .65s ease-in;
-    -o-transition: opacity .65s ease-in;
-    -ms-transition: opacity .65s ease-in;
-    transition: opacity .65s ease-in;
+    -webkit-transition: opacity .50s ease-in;
+    -moz-transition: opacity .50s ease-in;
+    -o-transition: opacity .50s ease-in;
+    -ms-transition: opacity .50s ease-in;
+    transition: opacity .50s ease-in;
 }
 
 .mosaic:hover {
@@ -67,11 +67,11 @@
 
 .gmr {
     opacity: .4;
-    -webkit-transition: opacity .65s ease-in;
-    -moz-transition: opacity .65s ease-in;
-    -o-transition: opacity .65s ease-in;
-    -ms-transition: opacity .65s ease-in;
-    transition: opacity .65s ease-in;
+    -webkit-transition: opacity .50s ease-in;
+    -moz-transition: opacity .50s ease-in;
+    -o-transition: opacity .50s ease-in;
+    -ms-transition: opacity .50s ease-in;
+    transition: opacity .50s ease-in;
 }
 
 .gmr:hover {
@@ -81,11 +81,11 @@
 
 .contractor {
     opacity: .4;
-    -webkit-transition: opacity .65s ease-in;
-    -moz-transition: opacity .65s ease-in;
-    -o-transition: opacity .65s ease-in;
-    -ms-transition: opacity .65s ease-in;
-    transition: opacity .65s ease-in;
+    -webkit-transition: opacity .50s ease-in;
+    -moz-transition: opacity .50s ease-in;
+    -o-transition: opacity .50s ease-in;
+    -ms-transition: opacity .50s ease-in;
+    transition: opacity .50s ease-in;
 }
 
 .contractor:hover {
@@ -95,11 +95,11 @@
 
 .miller {
     opacity: .4;
-    -webkit-transition: opacity .65s ease-in;
-    -moz-transition: opacity .65s ease-in;
-    -o-transition: opacity .65s ease-in;
-    -ms-transition: opacity .65s ease-in;
-    transition: opacity .65s ease-in;
+    -webkit-transition: opacity .50s ease-in;
+    -moz-transition: opacity .50s ease-in;
+    -o-transition: opacity .50s ease-in;
+    -ms-transition: opacity .50s ease-in;
+    transition: opacity .50s ease-in;
 }
 
 .miller:hover {
@@ -109,11 +109,11 @@
 
 .bi {
     opacity: .4;
-    -webkit-transition: opacity .65s ease-in;
-    -moz-transition: opacity .65s ease-in;
-    -o-transition: opacity .65s ease-in;
-    -ms-transition: opacity .65s ease-in;
-    transition: opacity .65s ease-in;
+    -webkit-transition: opacity .50s ease-in;
+    -moz-transition: opacity .50s ease-in;
+    -o-transition: opacity .50s ease-in;
+    -ms-transition: opacity .50s ease-in;
+    transition: opacity .50s ease-in;
 }
 
 .bi:hover {
@@ -123,11 +123,11 @@
 
 .cpc {
     opacity: .4;
-    -webkit-transition: opacity .65s ease-in;
-    -moz-transition: opacity .65s ease-in;
-    -o-transition: opacity .65s ease-in;
-    -ms-transition: opacity .65s ease-in;
-    transition: opacity .65s ease-in;
+    -webkit-transition: opacity .50s ease-in;
+    -moz-transition: opacity .50s ease-in;
+    -o-transition: opacity .50s ease-in;
+    -ms-transition: opacity .50s ease-in;
+    transition: opacity .50s ease-in;
 }
 
 .cpc:hover {
@@ -137,11 +137,11 @@
 
 .riplfx {
     opacity: .4;
-    -webkit-transition: opacity .65s ease-in;
-    -moz-transition: opacity .65s ease-in;
-    -o-transition: opacity .65s ease-in;
-    -ms-transition: opacity .65s ease-in;
-    transition: opacity .65s ease-in;
+    -webkit-transition: opacity .50s ease-in;
+    -moz-transition: opacity .50s ease-in;
+    -o-transition: opacity .50s ease-in;
+    -ms-transition: opacity .50s ease-in;
+    transition: opacity .50s ease-in;
 }
 
 .riplfx:hover {
@@ -152,11 +152,11 @@
 /*Education*/
 .school {
     opacity: .4;
-    -webkit-transition: opacity .65s ease-in;
-    -moz-transition: opacity .65s ease-in;
-    -o-transition: opacity .65s ease-in;
-    -ms-transition: opacity .65s ease-in;
-    transition: opacity .65s ease-in;
+    -webkit-transition: opacity .50s ease-in;
+    -moz-transition: opacity .50s ease-in;
+    -o-transition: opacity .50s ease-in;
+    -ms-transition: opacity .50s ease-in;
+    transition: opacity .50s ease-in;
 }
 
 .school:hover {
