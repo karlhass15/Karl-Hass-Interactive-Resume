@@ -9,6 +9,7 @@
     font-family: georgia,'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #d3d3d3;
     padding-bottom: 40px;
+    width: 100%;
 }
 
 header {
@@ -69,12 +70,7 @@ h5 {
 .emailButton:hover {
     box-shadow: 4px 4px 5px #888888;
 }
-/*Background image, backup color and font.  Height was extablished to extend background image*/
-body {
 
-    /*height: 3000px;*/
-
-}
 /*Naviation buttons section*/
 .nav {
     display: inline-block;
@@ -259,52 +255,33 @@ footer:hover {
         display: none;
     }
 
-    body {
-        background-image: url('http://i.imgur.com/6eDqLbx.gif?4');
-        font-family: georgia, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        background-color: #d3d3d3;
-        height: 3400px;
-        width: 100%
-    }
+
     #mainContainer {
         opacity: 1;
     }
 }
-@media screen and (max-width: 450px) {
- #experienceContainer {
-     width: 90%;
- }
-}
+/*@media screen and (max-width: 450px) {*/
+ /*#experienceContainer {*/
+     /*width: 90%;*/
+ /*}*/
+/*}*/
 
 @media screen and (max-width: 490px) {
 
-    .line {
-        display: none;
-    }
 
-    .line2 {
-        display: none;
-    }
-
-    body {
-        background-image: url('http://i.imgur.com/6eDqLbx.gif?4');
-        font-family: georgia, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        background-color: #d3d3d3;
-        height: 3900px;
-        width: 480px
-    }
     h1 {
         font-size: 1.9em;
     }
     #mainContainer {
         opacity: 1;
     }
+    .nav {
+        width: 30%;
+    }
 }
 
-@media screen and (max-width: 400px) {
-    .nav {
-        width: 50%;
-    }
+@media screen and (max-width: 399px) {
+
     #experienceContainer {
     width: 90%;
     }
