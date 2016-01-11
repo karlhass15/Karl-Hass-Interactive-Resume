@@ -14,9 +14,8 @@
     -o-transition: opacity .50s ease-in;
     -ms-transition: opacity .50s ease-in;
     transition: opacity .50s ease-in;
-
-
 }
+
 .prime:hover {
     opacity: 1;
     /*font-size: 1.1em;*/
@@ -29,9 +28,8 @@
     -o-transition: opacity .50s ease-in;
     -ms-transition: opacity .50s ease-in;
     transition: opacity .50s ease-in;
-
-
 }
+
 .zimmerman:hover {
     opacity: 1;
     /*font-size: 1.1em;*/
