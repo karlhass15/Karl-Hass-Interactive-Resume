@@ -21,6 +21,23 @@
     /*font-size: 1.1em;*/
 }
 
+.img-thumbnail {
+    margin-bottom: 1em;
+}
+
+#lightBox {
+    opacity: .4;
+    -webkit-transition: opacity .50s ease-in;
+    -moz-transition: opacity .50s ease-in;
+    -o-transition: opacity .50s ease-in;
+    -ms-transition: opacity .50s ease-in;
+    transition: opacity .50s ease-in;
+}
+
+#lightBox:hover {
+    opacity: 1;
+}
+
 .zimmerman {
     opacity: .4;
     -webkit-transition: opacity .50s ease-in;

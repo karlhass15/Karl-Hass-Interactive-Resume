@@ -13,8 +13,10 @@
     "angular": "^1.4.8",
     "angular-animate": "^1.4.8",
     "angular-aria": "^1.4.8",
+    "angular-bootstrap-lightbox": "^0.10.0",
     "angular-material": "^0.11.4",
     "angular-route": "^1.4.8",
+    "angular-ui-bootstrap": "^1.1.2",
     "body-parser": "^1.14.1",
     "bootstrap": "^3.3.5",
     "express": "^4.13.3",
@@ -22,6 +24,7 @@
     "grunt-contrib-copy": "^0.8.2",
     "grunt-contrib-uglify": "^0.10.1",
     "mongoose": "^4.2.8",
+    "ng-click": "0.0.1",
     "nodemailer": "^1.10.0",
     "nodemailer-sendgrid-transport": "^0.2.0",
     "path": "^0.12.7"

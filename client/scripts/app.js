@@ -1,4 +1,6 @@
-var myApp = angular.module("myApp", ['ngRoute', 'ngAnimate', 'ngMaterial']);
+var myApp = angular.module("myApp", ['ngRoute', 'ui.bootstrap', 'ngAnimate', 'ngMaterial', 'ngAria']);
+
+//'ngAria'
 
 myApp.config(['$routeProvider', function($routeProvider){
     $routeProvider.
@@ -6,10 +8,15 @@ myApp.config(['$routeProvider', function($routeProvider){
             templateUrl: "/assets/views/templates/header.html"
         }).
         when('/experience', {
-            templateUrl: "/assets/views/templates/experience.html"
+            templateUrl: "/assets/views/templates/experience.html",
+            controller: "lightboxController"
+
         }).
         when('/footer', {
             templateUrl: "/assets/views/templates/footer.html",
             controller: "ContactFormController"
         })
 }]);
+
+
+

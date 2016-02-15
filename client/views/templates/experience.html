@@ -1,3 +1,7 @@
+<!--<div class="lightbox-target" id="goofy">-->
+    <!--<img src="http://i.imgur.com/qJe328n.jpg?1"/>-->
+    <!--<a class="lightbox-close" href="#"></a>-->
+<!--</div>-->
 
 <div id="experienceContainer">
     <div class="prime">
@@ -16,6 +20,50 @@
                 LayoutNumber1.herokuapp.com</a></li>
         </ul>
     </div>
+
+
+ <div id="lightBox">
+    <ul ng-controller="lightboxController">
+        <li ng-repeat="image in images">
+            <a ng-click="openLightboxModal($index)">
+                <img ng-src="{{image.thumbUrl}}" class="img-thumbnail">
+            </a>
+        </li>
+    </ul>
+ </div>
+
+
+
+<!--//UNUSED FROM HTML CSS LIGHTBOX EXAMPLE-->
+
+    <!--<div class="screenShots">-->
+
+        <!--<div class="consciousShopperBox">-->
+            <!--<a class="lightbox" href="#goofy">-->
+                <!--<img  src="http://i.imgur.com/cLgmv0y.png?1"/>-->
+            <!--</a>-->
+        <!--</div>-->
+        <!--<div class="pinderBox">-->
+            <!--<a class="lightbox2" href="#goofy2">-->
+                <!--<img  src="http://i.imgur.com/KKmvkZq.png?1"/>-->
+            <!--</a>-->
+        <!--</div>-->
+        <!--<div class="layoutBox">-->
+            <!--<a class="lightbox3" href="#goofy3">-->
+                <!--<img  src="http://i.imgur.com/NIknVv4.png?1"/>-->
+            <!--</a>-->
+        <!--</div>-->
+        <!--<div class="reclaimedBox">-->
+            <!--<a class="lightbox4" href="#goofy4">-->
+                <!--<img  src="http://i.imgur.com/WA9VfV5.png?1"/>-->
+            <!--</a>-->
+        <!--</div>-->
+
+
+    <!--</div>-->
+
+
+
 
     <div class="zimmerman">
 <h3>Digital Solutions Specialist, Zimmerman Advertising, Fort Lauderdale FL (Freelance Dec 14-April 15)</h3>

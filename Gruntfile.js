@@ -12,6 +12,14 @@ module.exports = function(grunt){
             contactController: {
                 src: 'client/scripts/controllers/ContactFormController.js',
                 dest: 'server/public/assets/scripts/controllers/ContactFormController.min.js'
+            },
+            lightboxController: {
+                src: 'client/scripts/controllers/lightboxController.js',
+                dest: 'server/public/assets/scripts/controllers/lightboxController.min.js'
+            },
+            lightbox: {
+                src: 'node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js',
+                dest: 'server/public/vendors/ui-bootstrap/ui-bootstrap.min.js'
             }
 
         },
@@ -33,6 +41,7 @@ module.exports = function(grunt){
                 ],
                 dest: "server/public/vendors/"
             },
+
             css: {
                 expand: true,
                 cwd: 'client',
@@ -46,6 +55,14 @@ module.exports = function(grunt){
                 cwd: 'client',
                 src: [
                     "styles/experience.css"
+                ],
+                "dest": "server/public/assets/"
+            },
+            light: {
+                expand: true,
+                cwd: 'client',
+                src: [
+                    "styles/lightbox.css"
                 ],
                 "dest": "server/public/assets/"
             },
